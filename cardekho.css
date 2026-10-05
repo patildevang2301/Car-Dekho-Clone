@@ -1,0 +1,605 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: Lato, sans-serif;
+}
+body{
+	background-color:#FAFAFA;
+}
+header{
+	position:fixed;
+	float:left;
+}
+.container {
+  display: grid;
+  grid-template-columns: 300px 925px 85px 45px 140px ;
+  background-color: red;
+  border-bottom:1px solid #DBDBDB;
+  width:100%;
+  height:70px;
+}
+.container div {
+  background-color: white;
+  padding: 10px 5px 5px 5px ;
+  text-align: center;
+}
+.SB{
+	border:1px solid grey;
+	border-radius:15px;
+	width:70%;
+	margin:0px 0px 0px 10% ;
+}
+.SB input{
+	border:none;
+	padding:5px;
+	width:70%;
+	height:22px;
+	font-size:15px;
+	outline:none;
+	font-weight:bold;
+	background-color:;
+}
+.SB b{
+	padding:0px 5px 0px 5px ;
+}
+.line{
+	border-right:1px solid grey;
+	background-color:;
+	padding:8px 20px 8px 7px ;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;
+	font-size:15px;
+}
+.M{
+	justify-content:center;
+	align-content:center;
+}
+.M span{
+	text-decoration:1px underline solid grey;
+	font-size:12px;
+	color:grey;
+}
+.M ~ div{
+	justify-content:center;
+	align-content:center;
+}
+.list{
+	display: grid;
+	grid-template-columns: 40px 147px 149px 200px 120px auto 160px;
+	background-color:white;
+	padding: 10px 5px 10px 5px;
+	width:100%;
+}
+.list div{
+	background-color:;
+	padding:10px 0px 5px 0px ;
+}
+.list .L{
+	background-color:;
+	margin:0px 13px 0px 13px ;
+	font-size:15px;
+}
+.list .L:hover{
+	border-top:3px solid orange;
+}
+.L:hover .H{
+	display:block;
+}
+.C{
+	color:grey;
+	font-size:15px;
+}
+.H{
+	background-color:;
+	width:18%;
+	position:fixed;
+	top:12%;
+	left:9.5%;
+	display:none;
+}
+.H ul li{
+	list-style-type:none;
+	background-color:white;
+	padding:10px 10px 10px 10px ;
+	border:1px solid #DBDBDB ;
+}
+.H ul span{
+	margin:0px 10px 0px 0px;
+	float:right;
+}
+.H ul li:hover{
+	background-color:#F0F1F2;
+}
+.class1{
+	background-color:;
+	width:18%;
+	position:fixed;
+	top:16.8%;
+	left:27.5%;
+	display:none;
+}
+.class1 ul li{
+	list-style-type:none;
+	background-color:white;
+	padding:10px 10px 10px 10px ;
+	border:1px solid #DBDBDB ;
+}
+.class1 ul li:hover{
+	background-color:#F0F1F2;
+}
+.H2:hover .class1{
+	display:block;
+}
+.class2{
+	background-color:;
+	width:18%;
+	position:fixed;
+	top:21.8%;
+	left:27.5%;
+	display:none;
+}
+.class2 ul li{
+	list-style-type:none;
+	background-color:white;
+	padding:10px 10px 10px 10px ;
+	border:1px solid #DBDBDB ;
+}
+.class2 ul li:hover{
+	background-color:#F0F1F2;
+}
+.H3:hover .class2{
+	display:block;
+}
+.class3{
+	background-color:;
+	width:18%;
+	position:fixed;
+	top:41%;
+	left:27.5%;
+	display:none;
+}
+.class3 ul li{
+	list-style-type:none;
+	background-color:white;
+	padding:10px 10px 10px 10px ;
+	border:1px solid #DBDBDB ;
+}
+.class3 ul li:hover{
+	background-color:#F0F1F2;
+}
+.H4:hover .class3{
+	display:block;
+}
+.list .L2{
+	background-color:;
+	margin:0px 13px 0px 13px ;
+	font-size:15px;
+}
+.list .L2:hover{
+	border-top:3px solid orange;
+}
+.L2:hover .D{
+	display:block;
+}
+.D{
+	background-color:;
+	width:18%;
+	position:fixed;
+	top:14%;
+	left:27%;
+	display:none;
+}
+.D ul li{
+	list-style-type:none;
+	background-color:white;
+	padding:10px 10px 10px 10px ;
+	border:1px solid #DBDBDB ;
+}
+.D ul span{
+	margin:0px 10px 0px 0px;
+	float:right;
+}
+.D ul li:hover{
+	background-color:#F0F1F2;
+}
+.list .L3{
+	background-color:;
+	margin:0px 13px 0px 13px ;
+	font-size:15px;
+}
+.list .L3:hover{
+	border-top:3px solid orange;
+}
+.L3:hover .D2{
+	display:block;
+}
+.D2{
+	background-color:;
+	width:18%;
+	position:fixed;
+	top:14%;
+	left:39%;
+	display:none;
+}
+.D2 ul li{
+	list-style-type:none;
+	background-color:white;
+	padding:10px 10px 10px 10px ;
+	border:1px solid #DBDBDB ;
+}
+.D2 ul span{
+	margin:0px 10px 0px 0px;
+	float:right;
+}
+.D2 ul li:hover{
+	background-color:#F0F1F2;
+}
+.dev{
+	background-image: url("https://asset.autocarindia.com/static/editor/images/20260828_120144_b40371c6.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center,center;
+	margin:8.3% 0px 0px 0px ;
+	float:left;
+	width:100%;
+	height:500px;
+	display:flex;
+}
+.poster{
+	background-color:white;
+	height:440px;
+	width:22%;
+	margin:1% 0px 0px 4% ;
+	border-radius:20px;
+	padding:10px 15px 10px 15px ;
+	display:flex;
+	flex-direction:column;
+}
+.poster h1{
+	margin:25px 0px 0px 10px;
+}
+.box{
+	display:flex;
+	background-color:;
+}
+.box div{
+	background-color:;
+	margin:23px 10px 10px 10px;
+	padding:15px 38px 15px 38px;
+	border-radius:10px;
+	border:1px solid grey;
+}
+.one{
+	background-color:#24272C;
+	color:white;
+}
+.one ~ div{
+	color:grey;
+}
+.one ~ div:hover{
+	color:black;
+}
+.box2{
+	display:flex;
+	background-color:;
+	padding:10px 0px 0px 0px ;
+	margin:10px 0px 0px 0px ;
+}
+.box2 b{
+	color:orange;
+}
+.box2 span{
+	margin:0px 17px 0px 17px ;
+}
+.box3{
+	border:1px solid grey;
+	width:85%;
+	margin:0px 0px 0px 20px ;
+	padding:10px 0px 10px 10px ;
+	color:grey;
+	font-size:18px;
+}
+.box3 span{
+	float:right;
+	margin:0px 20px 0px 0px ;
+}
+.M1{
+	margin-top:20px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+.M2{
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.box4{
+	background-color:#F75D34;
+	width:70%;
+	margin:27px 0px 0px 20px;
+	padding:15px 30px 15px 30px;
+	border-radius:10px;
+	color:white;
+	text-align:center;
+	font-size:20px;
+}
+.box5{
+	background-color:;
+	margin:25px 0px 0px 0px;
+	text-align:right;
+	color:grey;
+}
+.poster2{
+	background-color:;
+	width:36.4%;
+	padding:5% 0px 0px 0px;
+	margin:0px 0px 0px 30px;
+	font-size:20px;
+	color:white;
+}
+.LN{
+	background-color:#F55B2F;
+	width:20%;
+	padding:8px 10px 7px 10px ;
+	border-radius:18px;
+	margin:12px 0px 10px 30px ;
+}
+.poster2 h2{
+	margin:12px 0px 10px 30px ;
+}
+.poster2 h4{
+	margin:12px 0px 10px 30px ;
+}
+.LN2{
+	background-color:white;
+	width:30%;
+	padding:10px;
+	border-radius:5px;
+	text-align:center;
+	color:white;
+	margin:17px 0px 10px 30px ;
+	color:black;
+}
+.car{
+	background-color:;
+	display:flex;
+	font-size:15px;
+	padding:10px;
+}
+.car div{
+	background-color:;
+	margin:0px 0px 0px 22px;
+	padding:5px 0px 5px 0px ;
+}
+.line2{
+	border-bottom:5px solid white;
+}
+.line3{
+	border-bottom:3px solid #D9D0B2;
+}
+.CI{
+	background-color:;
+	width:95%;
+	margin:30px 10px 10px 30px;
+	float:left;
+	border:1px solid #E9E9E9 ;
+	padding:17px 0px 0px 15px;
+	border-radius:10px;
+}
+.container2{
+	display: grid;
+	grid-template-columns: 35px 110px 100px 100px 100px auto;
+	background-color:;
+	padding: px;
+	gap: 20px;
+	border-bottom:2px solid #E9E9E9;
+	margin:13px 0px 0px 0px ;
+}
+.container2 div{
+	background-color: ;
+	padding:5px 0px 5px 0px ;
+	font-size:17px;
+}
+.L4{
+	border-bottom:4px solid orange;
+	font-weight:bold;
+	color:black;
+}
+.L4 ~ div{
+	color:grey;
+}
+.L4 ~ div:hover{
+	color:black;
+}
+.CP{
+	background-color:;
+	width:98%;
+	height:300px;
+	overflow-x:auto;
+	display:flex;
+	overflow-y:hidden;
+	scrollbar-width:none;
+	gap:2%;
+	padding:10px 0px 10px 10px ;
+}
+.offer{
+	background-color:;
+	width:20.7%;
+	height:305px;
+	border:1px solid #E9E9E9;
+	border-radius:10px;
+}
+.offer img{
+	border-top-left-radius:7px;
+	border-top-right-radius:7px;
+}
+.offer p{
+	margin:10px 0px 0px 15px ;
+	font-weight:bold;
+	font-size:17px;
+}
+.offer div{
+	background-color:;
+	margin:10px 10px 0px 10px ;
+	padding:10px;
+	text-align:center;
+	font-weight:bold;
+	color:orange;
+	border:1px solid orange;
+	border-radius:10px;
+}
+.A{
+	background-color:;
+	width:98%;
+	padding:10px 0px 15px 10px; 
+	font-weight:bold;
+	font-size:17px;
+	color:orange;
+	margin:5px 0px 0px 0px;
+}
+.CP2{
+	background-color:;
+	width:98%;
+	height:170px;
+	overflow-x:auto;
+	display:flex;
+	overflow-y:hidden;
+	scrollbar-width:none;
+	gap:2%;
+	padding:10px 0px 10px 10px ;
+}
+.offer2{
+	background-color:white;
+	width:14%;
+	height:160px;
+	border:1px solid #E9E9E9;
+	border-radius:10px;
+	margin:13px 0px 0px 5px ;
+}
+.offer2 img{
+	border-top-left-radius:8px;
+	border-top-right-radius:7px;
+}
+.offer2 p{
+	margin:10px 0px 0px 0%;
+	font-size:19px;
+	background-color:;
+	width:100%;
+	text-align:center;
+}
+.A2{
+	background-color:;
+	width:98%;
+	padding:10px 0px 15px 10px; 
+	font-weight:bold;
+	font-size:17px;
+	color:orange;
+	margin:5px 0px 0px 0px;
+}
+.CP3{
+	background-color:;
+	width:98%;
+	height:300px;
+	overflow-x:auto;
+	display:flex;
+	overflow-y:hidden;
+	scrollbar-width:none;
+	gap:2%;
+	padding:10px 0px 10px 10px ;
+}
+.offer3{
+	background-color:white;
+	width:30%;
+	height:265px;
+	border:1px solid #E9E9E9;
+	border-radius:10px;
+	margin:13px 0px 0px 5px ;
+}
+.offer3 img{
+	border-top-left-radius:8px;
+	border-top-right-radius:7px;
+}
+.Price{
+	background-color:;
+	display:flex;
+}
+.Price div{
+	width:50%;
+}
+.Price div p{
+	margin:5px 5px 5px 10px ;
+}
+.B{
+	font-size:18px;
+}
+.Box{
+	background-color:;
+	margin:10px 10px 0px 10px ;
+	padding:10px;
+	text-align:center;
+	font-weight:bold;
+	color:orange;
+	border:1px solid orange;
+	border-radius:10px;
+}
+.list2{
+	background-color:white;
+	float:left;
+	width:100%;
+	display:flex;
+	gap:10%;
+	padding:15px 0px 0px 0px;
+	border-top:2px solid #E9E9E9;
+	border-bottom:2px solid #E9E9E9;
+	margin:5% 0px 0px 0px ;
+}
+.list2 div{
+	display:flex;
+	background-color:;
+	width:15%;
+	margin:0px 0px 0px 20px ;
+}
+.list2 div p{
+	margin:20px 0px 0px 0px ;
+}
+.list2 div b{
+	font-size:27px;
+}
+.list2 div small{
+	color:grey;
+}
+footer{
+	width:100%;
+	height:300px;
+	float:left;
+	background-color:white;
+	display:flex;
+	gap:4%;
+	padding:30px 0px 0px 0px ;
+	font-size:12px;
+	border-bottom:1px solid #E9E9E9;
+}
+footer div{
+	background-color:;
+	width:18%;
+	margin:0px 0px 0px 40px ;
+}
+footer p{
+	margin:5px 0px 0px 10px;
+}
+footer ul li{
+	list-style-type:none;
+	margin:20px 15px 20px 15px;
+	color:#C3D3C5;
+}
+.S{
+	display:flex;
+	gap:10px;
+}
+.S img{
+	width:50%;
+	margin:10px 0px 10px 0px ;
+}
+.S2 img{
+	width:100%;
+	margin:10px 0px 0px 0px ;
+}
